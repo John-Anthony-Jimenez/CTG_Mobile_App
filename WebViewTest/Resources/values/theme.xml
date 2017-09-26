@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="theme_custom_background">#c6269ef5</color><style name="Theme.Custom" parent="@android:style/Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar">
+    <item name="android:colorPrimaryDark">#ffffffff</item>
+  <item name="android:colorAccent">#ffffffff</item><item name="android:colorBackground">@color/theme_custom_background</item><item name="android:windowBackground">?android:attr/colorBackground</item><item name="android:colorButtonNormal">#ffffffff</item><item name="android:colorControlNormal">#fffefeff</item></style>
+</resources>

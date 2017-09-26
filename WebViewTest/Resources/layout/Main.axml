@@ -5,8 +5,22 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-  <WebView
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:id="@+id/webView" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout1">
+        <Button
+            android:text="Menu"
+            android:id="@+id/button1" />
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:id="@+id/imageView1" />
+        <Button
+            android:text="News Feed"
+            android:id="@+id/button2" />
+    </GridLayout>
+    <android.webkit.WebView
+        android:layout_width="match_parent"
+        android:layout_height="537.0dp"
+        android:id="@+id/webView1" />
 </LinearLayout>

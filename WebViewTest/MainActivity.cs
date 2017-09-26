@@ -6,12 +6,13 @@ using Android.Views;
 using Android.Webkit;
 using Android.Widget;
 using Android.OS;
-using WebViewTest.Views;
-using WebViewTest.Models;
+using CTG_Mobile_App.Views;
+using CTG_Mobile_App.Models;
+using Android;
 
-namespace WebViewTest
+namespace CTG_Mobile_App
 {
-    [Activity(Label = "WebViewTest", MainLauncher = true)]
+    [Activity(Label = "Counter Threat Group", MainLauncher = true)]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)

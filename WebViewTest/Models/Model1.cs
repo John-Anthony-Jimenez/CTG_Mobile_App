@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WebViewTest.Models
+namespace CTG_Mobile_App.Models
 {
     public class Model1
     {

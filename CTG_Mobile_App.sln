@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewTest", "WebViewTest\WebViewTest.csproj", "{82083312-A678-46DA-8BEB-9D540787E73A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTG_Mobile_App", "WebViewTest\CTG_Mobile_App.csproj", "{82083312-A678-46DA-8BEB-9D540787E73A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
