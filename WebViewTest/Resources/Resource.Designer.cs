@@ -82,14 +82,14 @@ namespace CTG_Mobile_App
 			// aapt resource value: 0x7f070003
 			public const int button2 = 2131165187;
 			
+			// aapt resource value: 0x7f070002
+			public const int ctg_logo = 2131165186;
+			
 			// aapt resource value: 0x7f070000
 			public const int gridLayout1 = 2131165184;
 			
-			// aapt resource value: 0x7f070002
-			public const int imageView1 = 2131165186;
-			
 			// aapt resource value: 0x7f070004
-			public const int webView1 = 2131165188;
+			public const int webView = 2131165188;
 			
 			static Id()
 			{

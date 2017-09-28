@@ -8,7 +8,6 @@ using Android.Widget;
 using Android.OS;
 using CTG_Mobile_App.Views;
 using CTG_Mobile_App.Models;
-using Android;
 
 namespace CTG_Mobile_App
 {
@@ -22,22 +21,25 @@ namespace CTG_Mobile_App
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            var webView = FindViewById<WebView>(Resource.Id.webView);
+            var webView = FindViewById<WebView>(Resource.Id.WebView);
             webView.Settings.JavaScriptEnabled = true;
 
             // Use subclassed WebViewClient to intercept hybrid native calls
             webView.SetWebViewClient(new HybridWebViewClient());
 
-            // Render the view from the type generated from RazorView.cshtml
-            var model = new Model1() { Text = "Text goes here" };
+            //// Render the view from the type generated from RazorView.cshtml
+            var model = new Model1(); //{ Text = "Text goes here" };
             var template = new RazorView() { Model = model };
             var page = template.GenerateString();
 
-            // Load the rendered HTML into the view with a base URL 
-            // that points to the root of the bundled Assets folder
-            webView.LoadDataWithBaseURL("file:///android_asset/", page, "text/html", "UTF-8", null);
+            //// Load the rendered HTML into the view with a base URL 
+            //// that points to the root of the bundled Assets folder
+            //webView.LoadDataWithBaseURL("https://www.counterthreatgrp.com/quick-news-updates/", page, "text/html", "UTF-8", null);
+            webView.LoadUrl("https://www.counterthreatgrp.com/quick-news-updates/");
 
         }
+
+
 
         private class HybridWebViewClient : WebViewClient
         {
@@ -67,12 +69,13 @@ namespace CTG_Mobile_App
                     // Build some javascript using the C#-modified result
                     var js = string.Format("SetLabelText('{0}');", prepended);
 
-                    webView.LoadUrl("javascript:" + js);
+                    webView.LoadUrl("https://www.counterthreatgrp.com/quick-news-updates/");
+
                 }
+
 
                 return true;
             }
         }
     }
 }
-
