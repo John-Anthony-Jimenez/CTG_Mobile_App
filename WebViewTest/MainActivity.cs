@@ -21,7 +21,7 @@ namespace CTG_Mobile_App
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            var webView = FindViewById<WebView>(Resource.Id.WebView);
+            var webView = FindViewById<WebView>(Resource.Id.webView);
             webView.Settings.JavaScriptEnabled = true;
 
             // Use subclassed WebViewClient to intercept hybrid native calls
