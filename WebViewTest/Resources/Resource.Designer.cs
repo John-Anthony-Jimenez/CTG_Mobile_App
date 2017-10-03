@@ -76,6 +76,9 @@ namespace CTG_Mobile_App
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f070004
+			public const int WebView = 2131165188;
+			
 			// aapt resource value: 0x7f070001
 			public const int button1 = 2131165185;
 			
@@ -87,9 +90,6 @@ namespace CTG_Mobile_App
 			
 			// aapt resource value: 0x7f070000
 			public const int gridLayout1 = 2131165184;
-			
-			// aapt resource value: 0x7f070004
-			public const int webView = 2131165188;
 			
 			static Id()
 			{
